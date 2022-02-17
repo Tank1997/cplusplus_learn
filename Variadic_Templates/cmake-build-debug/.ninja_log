@@ -1,0 +1,19 @@
+# ninja log v5
+3	2102	6667010547675085	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+2105	3395	6667010560572864	Variadic_Templates.exe	5468b7949a24282d
+21	848	6667302352476182	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+6	854	6667302352536020	CMakeFiles/Variadic_Templates.dir/classA.cpp.obj	113db43f5a801a41
+4	554	6667302772349961	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+3	537	6667303598195936	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+537	684	6667303599595424	Variadic_Templates.exe	aaac54f6761cbb42
+3	1257	6667307481750474	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+1258	1409	6667307483219600	Variadic_Templates.exe	aaac54f6761cbb42
+3	407	6667307510840782	CMakeFiles/Variadic_Templates.dir/classA.cpp.obj	113db43f5a801a41
+408	564	6667307512344845	Variadic_Templates.exe	aaac54f6761cbb42
+3	421	6667308446471110	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+421	570	6667308447917663	Variadic_Templates.exe	aaac54f6761cbb42
+20	533	6667314514512318	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+4	473	6667314691487746	CMakeFiles/Variadic_Templates.dir/classA.cpp.obj	113db43f5a801a41
+5	561	6667318085563889	CMakeFiles/Variadic_Templates.dir/classA.cpp.obj	113db43f5a801a41
+20	562	6667318085563889	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	1fd5a310afe399d1
+563	792	6667318087742164	Variadic_Templates.exe	aaac54f6761cbb42

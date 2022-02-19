@@ -32,5 +32,6 @@ int main() {
     thread1.join();
     thread2.join();
 
+    std::cout << "finished" << std::endl;
     return 0;
 }

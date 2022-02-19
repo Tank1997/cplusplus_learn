@@ -1,4 +1,5 @@
 #include <iostream>
+#include <thread>
 #include "classA.h"
 
 void print()
@@ -14,9 +15,22 @@ void print(const T& firstArg,const Types&... args)
     print(args...);
 }
 
-static std::string st2{"world"};
-int main() {
 
-    std::cout << classA::m_intData << std::endl;
+void run()
+{
+    std::cout << "world" << std::endl;
+}
+
+void foo()
+{
+    std::cout << "hello" << std::endl;
+}
+
+int main() {
+    std::thread thread1(run);
+    std::thread thread2(foo);
+    thread1.join();
+    thread2.join();
+
     return 0;
 }

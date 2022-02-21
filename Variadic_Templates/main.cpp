@@ -1,24 +1,21 @@
 #include <iostream>
-#include <boost/shared_ptr.hpp>
-#include <boost/filesystem.hpp>
+#include <boost/thread.hpp>
+
+void th1()
+{
+    std::cout << "I'm thread one" << std::endl;
+}
+
+void th2()
+{
+    std::cout << "I'm thread two" << std::endl;
+}
 
 int main(int argc, char *argv[])
 {
-    std::cout << "Hello Third Party Include!" << std::endl;
-
-    // use a shared ptr
-    boost::shared_ptr<int> isp(new int(4));
-
-    // trivial use of boost filesystem
-    boost::filesystem::path path = "F:\\Boost";
-    if(path.is_relative())
-    {
-        std::cout << "Path is relative" << std::endl;
-    }
-    else
-    {
-        std::cout << "Path is not relative" << std::endl;
-    }
-
+    boost::thread t1(th1);
+    boost::thread t2(th2);
+    t1.join();
+    t2.join();
     return 0;
 }

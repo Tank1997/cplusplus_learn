@@ -2,4 +2,8 @@
 5	561	6667318085563889	CMakeFiles/Variadic_Templates.dir/classA.cpp.obj	113db43f5a801a41
 10	1933	6671177761021505	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	3f10ff4cc08aaa19
 1934	2786	6671177769491666	Variadic_Templates.exe	e2de9014bc9c5ae5
-1	1145	6671179263284041	build.ninja	9388eef94fb64f42
+1	1145	6671189839672245	build.ninja	9388eef94fb64f42
+9	3023	6671193795513922	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	3f10ff4cc08aaa19
+3028	4084	6671193806089623	Variadic_Templates.exe	85dc886f13d39658
+13	3215	6671194391862717	CMakeFiles/Variadic_Templates.dir/main.cpp.obj	3f10ff4cc08aaa19
+3215	3989	6671194399571715	Variadic_Templates.exe	85dc886f13d39658

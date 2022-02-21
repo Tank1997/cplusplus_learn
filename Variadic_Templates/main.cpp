@@ -1,35 +1,24 @@
 #include <iostream>
-#include <thread>
-#include "classA.h"
+#include <boost/shared_ptr.hpp>
+#include <boost/filesystem.hpp>
 
-void print()
+int main(int argc, char *argv[])
 {
-    static std::string  st1 {"hello"};
-    std::cout << st1 << std::endl;
-}
+    std::cout << "Hello Third Party Include!" << std::endl;
 
-template <typename T,typename... Types>
-void print(const T& firstArg,const Types&... args)
-{
-    std::cout<< firstArg << std::endl;
-    print(args...);
-}
+    // use a shared ptr
+    boost::shared_ptr<int> isp(new int(4));
 
+    // trivial use of boost filesystem
+    boost::filesystem::path path = "F:\\Boost";
+    if(path.is_relative())
+    {
+        std::cout << "Path is relative" << std::endl;
+    }
+    else
+    {
+        std::cout << "Path is not relative" << std::endl;
+    }
 
-void run()
-{
-    std::cout << "world" << std::endl;
-}
-
-void foo()
-{
-    std::cout << "hello" << std::endl;
-}
-
-int main() {
-    std::thread thread1(run);
-    std::thread thread2(foo);
-
-    std::cout << "finished" << std::endl;
     return 0;
 }

@@ -1,21 +1,22 @@
 #include <iostream>
-#include <boost/thread.hpp>
+#include <string>
 
-void th1()
+//字符串最后一个单词的长度
+void last_word_length()
 {
-    std::cout << "I'm thread one" << std::endl;
-}
+    std::string str_input;
+    std::getline(std::cin,str_input);
 
-void th2()
-{
-    std::cout << "I'm thread two" << std::endl;
+    int index = str_input.rfind(" ");
+    if( index != std::string::npos)
+    {
+        str_input = str_input.substr(index + 1);
+    }
+    std::cout << str_input.length() << std::endl;
+    return;
 }
-
 int main(int argc, char *argv[])
 {
-    boost::thread t1(th1);
-    boost::thread t2(th2);
-    t1.join();
-    t2.join();
+    last_word_length();
     return 0;
 }

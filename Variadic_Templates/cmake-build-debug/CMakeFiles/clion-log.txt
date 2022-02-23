@@ -1,10 +1,4 @@
 "F:\Clion\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=F:/Clion/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja F:\C++Learn\Variadic_Templates
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
--- Found Boost: F:/Boost/include/boost-1_64 (found suitable version "1.64.0", minimum required is "1.64.0") found components: thread chrono system date_time atomic 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: F:/C++Learn/Variadic_Templates/cmake-build-debug
